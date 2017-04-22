@@ -12,7 +12,10 @@ function calculateDivWidth(){
       circleDiv.style.width = diameter + 'px';
       circleDiv.style.height = diameter + 'px';
       circleDiv.style.borderRadius = "50%";
-      circleDiv.style.backgroundColor = "purple";
+      circleDiv.style.backgroundImage = "snowflake2.png";
+      circleDiv.style.backgroundRepeat = "no-repeat";
+      circleDiv.style.backgroundPosition = "center";
+      circleDiv.style.backgroundSize = "contain";
       circleDiv.className = "circle";
       wrap.appendChild(circleDiv);
 
