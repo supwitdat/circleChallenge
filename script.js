@@ -8,14 +8,14 @@ function calculateDivWidth(){
 
       console.log(diameter);
 
+
+// Making circle
       var circleDiv = document.createElement('div');
       circleDiv.style.width = diameter + 'px';
       circleDiv.style.height = diameter + 'px';
       circleDiv.style.borderRadius = "50%";
-      circleDiv.style.backgroundImage = "snowflake2.png";
-      circleDiv.style.backgroundRepeat = "no-repeat";
-      circleDiv.style.backgroundPosition = "center";
-      circleDiv.style.backgroundSize = "contain";
+
+      circleDiv.margin = "0px";
       circleDiv.className = "circle";
       wrap.appendChild(circleDiv);
 
@@ -25,7 +25,6 @@ console.log(area);
       var message = document.createElement('h2');
       message.innerText = "The area of a circle with the radius of " + numInput + " is " + area + "px.";
       document.body.appendChild(message);
-
 
 
 }
