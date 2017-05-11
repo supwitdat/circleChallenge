@@ -22,9 +22,9 @@ function calculateDivWidth(){
 var area = Number(Math.PI * Math.pow(numInput, 2)).toFixed(2);
 console.log(area);
 
-      var message = document.createElement('h2');
-      message.innerText = "The area of a circle with the radius of " + numInput + " is " + area + "px.";
-      document.body.appendChild(message);
+      // var message = document.createElement('h2');
+      // message.innerText = "The area of a circle with the radius of " + numInput + " is " + area + "px.";
+      // document.body.appendChild(message);
 
 
 }

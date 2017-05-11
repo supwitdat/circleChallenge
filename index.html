@@ -4,15 +4,16 @@
 <head>
   <title>Circle Challenge</title>
   <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="main.css">
 </head>
 
 <body>
   <header>
-    <form>
-      <label for="radiusIn" >Give me a number</label>
-      <input type="text" name="radius" id = "radiusIn">
-      <button type="button" onclick = "calculateDivWidth();">Getcha a circle!</button>
+    <di class="form-group">
+      <label for="radiusIn" >Submit the radius of your snowflake</label>
+      <input type="text" class="form-control" name="radius" id = "radiusIn">
+      <button class="btn btn-primary" type="button" onclick = "calculateDivWidth();">Create Snowflake!</button>
     </form>
   </header>
 <div id="iframeWrap">
@@ -21,9 +22,9 @@
 
   <div id="circle_wrap"></div>
 
-  <script src="script.js"></script>
-
 </div>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="script.js"></script>
 </body>
 
 </html>
